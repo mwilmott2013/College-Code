@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Assignment1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int matrixSize = sc.nextInt();
+		if (matrixSize <= 0) {
+			System.out.println("ERROR: Invalid Size");
+			return;
+		}
+		int[][] theMatrix = new int[99][99];
+		for (int i = 0; i < theMatrix.length; i++ ) {
+			for (int j = 0; j < theMatrix[i].length; j++ ) {
+				theMatrix[i][j] = sc.nextInt();
+			}
+		}
+		for (int i = 0; i < theMatrix.length; i++ ) {
+			for (int j = 0; j < theMatrix[i].length; j++ ) {
+				System.out.println(theMatrix[i][j]);
+			}
+		}
+	}
+}

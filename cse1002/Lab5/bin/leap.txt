@@ -1,0 +1,4 @@
+I saw that the changed probabilities drastically affect the page ranks.  If the probabilities were changed to 80-20, the page ranks are affected.
+Page 23, for example, had its page rank drop by a whole .01.  When probabilities were altered to 95-5,
+Page 23 was boosted by .006. Thus, it stands to reason that if probabilities move higher, the page ranks move higher, and 
+if the probabilities move lower, the page ranks move lower.

@@ -1,0 +1,1 @@
+The primary difference is that Main.java compiles Ugly from Main.java, and mystery.java compiles Ugly from mystery.java.

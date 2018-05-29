@@ -1,0 +1,3 @@
+The program gave me a NaN for ALL pages, not just Page 23, when Page 23 had all outgoing links deleted.
+I tried declaring the double p as 0.0, and making an if statement stating that if outDegree[i] was not 0, then compute as necessary,
+and the NaN was changed to 0.00000 for all pages. I assume that this is the requested solution.
